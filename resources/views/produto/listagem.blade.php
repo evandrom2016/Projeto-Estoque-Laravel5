@@ -21,6 +21,11 @@
 					<span class="glyphicon glyphicon-trash"></span>
 				</a>
 			</td>
+			<td>
+				<a href="{{action('ProdutoController@edita', $p->id)}}">
+					<span class="glyphicon glyphicon-edit"></span>
+				</a>
+			</td>
 		</tr>
 	@endforeach
  </table>	
